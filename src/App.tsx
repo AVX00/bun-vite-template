@@ -1,3 +1,3 @@
 import "./App.scss";
 
-export const App = () => <> hola </>;
+export const App = () => <div> hello world! </div>;

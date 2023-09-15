@@ -1,0 +1,19 @@
+@font-face {
+  font-family: mononoki-regular;
+  src: url(/src/assets/fonts/MononokiNerdFont-Regular.ttf);
+}
+@font-face {
+  font-family: mononoki-bold;
+  src: url(/src/assets/fonts/MononokiNerdFont-Bold.ttf);
+}
+@font-face {
+  font-family: mononoki-italic;
+  src: url(/src/assets/fonts/MononokiNerdFont-Italic.ttf);
+}
+@font-face {
+  font-family: mononoki-mono;
+  src: url(/src/assets/fonts/MononokiNerdFontMono-Regular.ttf);
+}
+
+$font-stack: "mononoki-regular", ui-monospace, "Cascadia Code",
+  "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace;
